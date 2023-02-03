@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login Form</title>
+</head>
+<body>
+	<h1>Class Register Form</h1>
+	<form action="">
+		<table>
+			<tbody>
+				<tr>
+					<td colspan="2"><b>Account Information</b></td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td>
+						<input id="idEmail" name="email" placeholder="email" type="email"/>
+					</td>
+				</tr>
+				<tr>
+					<td>Password:</td>
+					<td>
+						<input id="idPassword" name="password" placeholder="password" type="password"/>
+					</td>
+				</tr>
+				<tr>
+					<td>Re-password:</td>
+					<td>
+						<input id="idRePassword" name="rePassword" placeholder="rePassword" type="password"/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><strong>User Information</strong></td>
+				</tr>
+				<tr>
+					<td>Full name:</td>
+					<td>
+						<input id="idFullname" name="fullName" placeholder="your full name" type="text"/>
+					</td>
+				</tr>
+				<tr>
+					<td>Gender:</td>
+					<td>
+						<input id="idMale" name="gender" value="M" type="radio"/>Male
+						<input id="idFemale" name="gender" value="F" type="radio"/>Female
+					</td>
+				</tr>
+				<tr>
+					<td>Birth of date:</td>
+					<td>
+						<input id="idDate" name="date" type="date"/>
+					</td>
+				</tr>
+				<tr>
+					<td>Phone 1:</td>
+					<td>
+						<input id="idPhone1" name="phone1" type="tel"/>
+					</td>
+				</tr>
+				<tr>
+					<td>Phone 2:</td>
+					<td>
+						<input id="idPhone2" name="phone2" type="tel"/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><strong>Address Information</strong></td>
+				</tr>
+				<tr>
+					<td>National:</td>
+					<td>
+						<select name="national" id="idNational">
+							<option value="vn">Viet Nam</option>
+							<option value="ca">Canada</option>
+							<option value="us">USA</option>
+							<option value="uk">England</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Address:</td>
+					<td>
+						<textarea rows="5" cols="" name="address" id="idAddress"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><strong>Class Registration</strong></td>
+				</tr>
+				<tr>
+					<td>Class:</td>
+					<td>
+						<label for="idPhp">PHP</label>
+						<input type="checkbox" name="php" value="php" id="idPhp" />
+						
+						<label for="idJava">Java</label>
+						<input type="checkbox" name="java" value="java" id="idJava" />
+						
+						<label for="idPython">Python</label>
+						<input type="checkbox" name="python" value="python" id="idPython" />
+					</td>
+				</tr>
+				<tr>
+					<td>Image:</td>
+					<td>
+						<input type="file" name="img" id="idFile" />
+					</td>
+				</tr>
+				<tr>
+					<td>Age:</td>
+					<td>
+						<input type="number" name="age" id="idAge" min="18"/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="submit" value="Submit" />
+						<input type="reset" value="Reset" />
+					</td>
+				</tr>	
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>
